@@ -17,10 +17,12 @@ Meals is referenced right below this constructor, and then there is a blank cons
 getters & setters have been declared.
 All of the getters are methods, but one of them--*getVitamins*--has a switch/case that returns a value for each item (*FatsAndVitamins* interface contains these methods' signatures).
 The *writeToFile()* method takes all of the data entered and writes it to a csv file called, *"foodDiaryDetails.csv"*.
-"public NutritionalValues createFoodDiary(int dateOfMeal, String meal, String foodItem, int calories,
+
+	public NutritionalValues createFoodDiary(int dateOfMeal, String meal, String foodItem, int calories,
 			int caloriesFromFat, int totalFat, int cholesterol, int sodium, int potassium, int totalCarbohydrates,
 			int dietaryFiber, int sugars, int protein, int saturatedFat, int transFat, String vitamins) {
 
 		return new NutritionalValues();
 		
-	}" is there, but I cannot remember 'how' this got to be there, as this project is over one year old.  I only know that this ensures that all of the variable values from both *nutritional values*, as well as *meals*returns the values from these classes.
+	}
+is there, but I cannot remember 'how' this got to be there, as this project is over one year old.  I only know that this ensures that all of the variable values from both *nutritional values*, as well as *meals*returns the values from these classes.
