@@ -25,4 +25,4 @@ The *writeToFile()* method takes all of the data entered and writes it to a csv 
 		return new NutritionalValues();
 		
 	}
-is there, but I cannot remember 'how' this got to be there, as this project is over one year old.  I only know that this ensures that all of the variable values from both *nutritional values*, as well as *meals*returns the values from these classes.
+is there, but I cannot remember 'how' this got to be there, as this project is over one year old.  I only know that this ensures that all of the variable values from both *nutritional values*, as well as *meals* returns the values from these classes.
